@@ -34,7 +34,7 @@ public class Game {
                             winnerNotKnown = false;
                             System.out.println("The winner is:" +vehicle.getName());
                             break;
-                }
+                         }
                         if (vehicle.getFuelLevel() <=0) {
                             competitorsWithoutFuel++;
                         }
